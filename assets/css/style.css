@@ -1,0 +1,28 @@
+.wrapper, html, body{
+    height: 100%;
+    margin: 0;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    text-align: center;
+    background-color: lightblue;
+    padding: 5px;
+}
+
+.generator{
+    text-align: center;
+    background-color: lightpink;
+    padding: 5px;
+}
+
+.output{
+    text-align: center;
+    background-color: lightgreen;
+    flex: 2;
+    padding: 5px;
+}

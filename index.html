@@ -4,9 +4,73 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Character Generator</title>
 </head>
 <body>
-    
+    <div class="wrapper">
+        <header>
+            <h2>TTRPG Character Background Generator</h2>
+            <p>Generate quick characters for TTRPGs</p>
+        </header>
+
+        <section class="generator">
+            <form id="generator-form">
+                <div class="container">
+                    <label for="backgrounds">Choose a background:</label>
+                    <select name="backgrounds" id="backgrounds">
+                    </select>
+                </div>
+
+                <div class="container">
+                    <label for="traits">Choose number of traits:</label>
+                    <select name="traits" id = "traits">
+                    </select>
+                </div>
+
+                <div class="container">
+                    <label for="ideals">Choose number of ideals:</label>
+                    <select name="ideals" id = "ideals">
+                    </select>
+                </div>
+
+                <div class="container">
+                    <label for="bonds">Choose number of bonds:</label>
+                    <select name="bonds" id = "bonds">
+                    </select>
+                </div>
+
+                <div class="container">
+                    <label for="flaws">Choose number of flaws:</label>
+                    <select name="flaws" id = "flaws">
+                    </select>
+                </div>
+                <input type="submit" name="submit" value="Generate">
+            </form>
+        </section>
+
+        <section class="output">
+            <h2>Your generated character:</h2>
+            <h3>Background</h3>
+            <div id="chosen-background"></div>
+            <div class="container">
+                <h3>Traits</h3>
+                <div id="chosen-traits"></div>
+            </div>
+            <div class="container">
+                <h3>Ideals</h3>
+                <div id="chosen-ideals"></div>
+            </div>
+            <div class="container">
+                <h3>Bonds</h3>
+                <div id="chosen-bonds"></div>
+            </div>
+            <div class="container">
+                <h3>Flaws</h3>
+                <div id="chosen-flaws"></div>
+            </div>
+        </section>
+    </div>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>

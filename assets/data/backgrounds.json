@@ -1,0 +1,78 @@
+{
+    "backgrounds":[
+        {
+            "name": "Charlatan",
+            "traits": [
+                "I fall in and out of love easily, and am always pursuing someone.",
+                "I have a joke for every occasion, especially occasions where humor is inappropriate.",
+                "Flattery is my preferred trick for getting what I want.",
+                "I'm a born gambler who can't resist taking a risk for a potential payoff.",
+                "I lie about almost everything, even when there's no reason to.",
+                "Sarcasm and insults are my weapons of choice.",
+                "I keep multiple holy symbols on me and invoke whatever deity might come in useful at any given moment.",
+                "I pocket anything I see that might have some value."
+            ],
+            "ideals": [
+                "Independence. I am a free spirit—no one tells me what to do. (Chaotic)",
+                "Fairness. I never target people who can't afford to lose a few coins. (Lawful)",
+                "Charity. I distribute the money I acquire to the people who really need it. (Good)",
+                "Creativity. I never run the same con twice. (Chaotic)",
+                "Friendship. Material goods come and go. Bonds of friendship last forever. (Good)",
+                "Aspiration. I'm determined to make something of myself. (Any)"
+            ],
+            "bonds": [
+                "I fleeced the wrong person and must work to ensure that this individual never crosses paths with me or those I care about.",
+                "I owe everything to my mentor—a horrible person who's probably rotting in jail somewhere.",
+                "Somewhere out there, I have a child who doesn't know me. I'm making the world better for him or her.",
+                "I come from a noble family, and one day I'll reclaim my lands and title from those who stole them from me.",
+                "A powerful person killed someone I love. Some day soon, I'll have my revenge.",
+                "I swindled and ruined a person who didn't deserve it. I seek to atone for my misdeeds but might never be able to forgive myself."
+            ],
+            "flaws": [
+                "I can't resist a pretty face.",
+                "I'm always in debt. I spend my ill-gotten gains on decadent luxuries faster than I bring them in.",
+                "I'm convinced that no one could ever fool me the way I fool others.",
+                "I'm too greedy for my own good. I can't resist taking a risk if there's money involved.",
+                "I can't resist swindling people who are more powerful than me.",
+                "I hate to admit it and will hate myself for it, but I'll run and preserve my own hide if the going gets tough."
+            ]
+        },
+        {
+            "name": "Noble",
+            "traits":[
+                "My eloquent flattery makes everyone I talk to feel like the most wonderful and important person in the world.",
+                "The common folk love me for my kindness and generosity.",
+                "No one could doubt by looking at my regal bearing that I am a cut above the unwashed masses.",
+                "I take great pains to always look my best and follow the latest fashions.",
+                "I don't like to get my hands dirty, and I won't be caught dead in unsuitable accommodations.",
+                "Despite my noble birth, I do not place myself above other folk. We all have the same blood.",
+                "My favor, once lost, is lost forever.",
+                "If you do me an injury, I will crush you, ruin your name, and salt your fields."
+            ],
+            "ideals":[
+                "Respect. Respect is due to me because of my position, but all people regardless of station deserve to be treated with dignity. (Good)",
+                "Responsibility. It is my duty to respect the authority of those above me, just as those below me must respect mine. (Lawful)",
+                "Independence. I must prove that I can handle myself without coddling from my family. (Chaotic)",
+                "Power. If I can attain more power, no one will tell me what to do. (Evil)",
+                "Family. Blood runs thicker than water. (Any)",
+                "Noble Obligation. It is my duty to protect and care for the people beneath me. (Good)"
+            ],
+            "bonds":[
+                "I will face any challenge to win the approval of my family.",
+                "My house's alliance with another noble family must be sustained at all costs.",
+                "Nothing is more important than the other members of my family.",
+                "I am in love with the heir of a family that my family despises.",
+                "My loyalty to my sovereign is unwavering.",
+                "The common folk must see me as a hero of the people."
+            ],
+            "flaws":[
+                "I secretly believe that everyone is beneath me.",
+                "I hide a truly scandalous secret that could ruin my family forever.",
+                "I too often hear veiled insults and threats in every word addressed to me, and I'm quick to anger.",
+                "I have an insatiable desire for carnal pleasures.",
+                "In fact, the world does revolve around me.",
+                "By my words and actions, I often bring shame to my family."
+            ]
+        }
+    ]
+}
