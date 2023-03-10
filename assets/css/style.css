@@ -17,12 +17,12 @@ header h2{
 .generator input{
     border: none;
     border-radius: 20%;
-    margin: 5px;
-    padding: 5px;
+    margin: 20px;
+    padding: 30px;
     font-size: 16px;
     display: inline-block;
     background: rgb(153, 140, 81);
-    box-shadow: 0 4px #999;
+    box-shadow: 0 5px gray;
     display: inline-block;
     color: white;
 }
@@ -36,7 +36,7 @@ header h2{
 .generator input:active{
     background: rgb(146, 128, 46);
     color: white;
-    transform: translateY(3px);
+    transform: translateY(5px);
 }
 
 .generator select{
