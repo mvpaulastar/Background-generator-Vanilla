@@ -2,7 +2,7 @@ const jsonUrl = "assets/data/backgrounds.json";
 let currSelection;
 
 /*Fetch data from json file
- * Expected to be local data thus lack of handling
+ * Expected to be local data
  **/
 async function fetchData(url) {
   try {
@@ -98,7 +98,7 @@ function generateBackground(form) {
   const formData = new FormData(form);
 
   document.getElementById("chosen-background").innerHTML =
-    "<p>" + formData.get("backgrounds") + "</p>";
+    "<h1>" + formData.get("backgrounds") + "</h1>";
 
   const generatedTraits = randomlyRollData(formData.get("traits"), "traits");
   const generatedIdeals = randomlyRollData(formData.get("ideals"), "ideals");

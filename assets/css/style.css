@@ -1,28 +1,66 @@
 .wrapper, html, body{
-    height: 100%;
     margin: 0;
-}
-
-.wrapper{
+    background-image: url("../imgs/paper-bg.png");
+    background-color: brown;
+    background-size: cover;
+    width: 100%;
     display: flex;
     flex-direction: column;
+    text-align: center;
+    font-weight: bold;
 }
 
-header{
-    text-align: center;
-    background-color: lightblue;
+.generator input{
+    border: none;
+    border-radius: 20%;
+    margin: 5px;
     padding: 5px;
+    font-size: 16px;
+    display: inline-block;
+    background: rgb(153, 140, 81);
+    box-shadow: 0 4px #999;
+    display: inline-block;
+    color: white;
 }
 
-.generator{
-    text-align: center;
-    background-color: lightpink;
-    padding: 5px;
+.generator input:hover{
+    cursor: pointer;
+    background: rgb(146, 128, 46);
+    color: white;
 }
 
-.output{
-    text-align: center;
-    background-color: lightgreen;
-    flex: 2;
-    padding: 5px;
+.generator input:active{
+    background: rgb(146, 128, 46);
+    color: white;
+    transform: translateY(3px);
+}
+
+.generator select{
+    color: white;
+    border: none;
+    border-radius: 20%;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(153, 140, 81);
+}
+
+.generator select:hover{
+    cursor: pointer;
+    background: rgb(146, 128, 46);
+    color: white;
+}
+
+.output h2, h3{
+    text-decoration: underline;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.5em;
+}
+
+.output h1{
+    font-size: 2em;
+    border: 4px solid rgb(146, 128, 46);
+    display: inline-block;
+    border-radius: 25%;
+    padding: 10px;
 }
