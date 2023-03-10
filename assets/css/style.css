@@ -1,13 +1,17 @@
 .wrapper, html, body{
     margin: 0;
-    background-image: url("../imgs/paper-bg.png");
-    background-color: brown;
-    background-size: cover;
-    width: 100%;
+    background-image: url("../imgs/parchment.png"), url("../imgs/table.jpg"), url("../imgs/table.jpg");
+    background-color: #614317;
+    background-repeat: repeat-y, repeat-y, repeat-y;
+    background-position: center, left, right;
     display: flex;
     flex-direction: column;
     text-align: center;
     font-weight: bold;
+}
+
+header h2{
+    text-decoration: underline;
 }
 
 .generator input{
@@ -59,8 +63,8 @@
 
 .output h1{
     font-size: 2em;
-    border: 4px solid rgb(146, 128, 46);
+    border-bottom: 4px solid rgb(146, 128, 46);
     display: inline-block;
-    border-radius: 25%;
+    border-radius: 35%;
     padding: 10px;
 }
