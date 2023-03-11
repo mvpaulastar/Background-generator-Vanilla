@@ -8,5 +8,4 @@ Dynamically changes number of traits based on available traits for each backgrou
 
 The aim is to build this project with vanilla CSS, HTML, JS
 
-Eventually hope to recreate other versions of this project with different technologies as I study them.
 
