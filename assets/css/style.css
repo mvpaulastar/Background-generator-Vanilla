@@ -1,16 +1,36 @@
-.wrapper, html, body{
+*{
+    box-sizing: border-box;
+    padding: 0;
     margin: 0;
-    background-image: url("../imgs/parchment.png"), url("../imgs/table.jpg"), url("../imgs/table.jpg");
-    background-color: #614317;
-    background-repeat: repeat-y, repeat-y, repeat-y;
-    background-position: center, left, right;
-    display: flex;
-    flex-direction: column;
+}
+
+html body{
+    margin: 0 auto;
+    background-image: url("../imgs/table.jpg");
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
+.wrapper{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    justify-content: center;
     text-align: center;
-    font-weight: bold;
+}
+
+.grid-container{
+    grid-column: 2;
+    background-image: url("../imgs/parchment.png");
+    background-size:contain;
+    background-repeat: repeat-y;
+    background-position: center;
+
 }
 
 header h2{
+    margin: 50px;
     text-decoration: underline;
 }
 
@@ -63,7 +83,7 @@ header h2{
 
 .output h2, h3{
     text-decoration: underline;
-    padding: 10px;
+    padding: 5px;
     margin: 10px;
     font-size: 1.5em;
 }
@@ -74,6 +94,12 @@ header h2{
     display: inline-block;
     border-radius: 35%;
     padding: 10px;
+}
+
+.output p{
+    margin: 10px;
+    padding: 10px;
+    word-wrap: wrap;
 }
 
 footer {
@@ -87,4 +113,10 @@ footer a{
 
 footer a:hover{
     color: #614317;
+}
+
+@media screen and (max-width: 720px ){
+    .wrapper{
+        grid-template-columns: 1fr 6fr 1fr;
+    }
 }

@@ -9,67 +9,69 @@
 </head>
 <body>
     <div class="wrapper">
-        <header>
-            <h2>TTRPG Character Background Generator</h2>
-            <p>Generate quick characters for TTRPGs</p>
-        </header>
-
-        <section class="generator">
-            <form id="generator-form">
-                <div class="container">
-                    <label for="backgrounds">Background</label>
-                    <select name="backgrounds" id="backgrounds">
-                    </select>
-                </div>
-
-                <div class="container">
-                    <label for="traits">Number of traits</label>
-                    <select name="traits" id = "traits">
-                    </select>
-                </div>
-
-                <div class="container">
-                    <label for="ideals">Number of ideals</label>
-                    <select name="ideals" id = "ideals">
-                    </select>
-                </div>
-
-                <div class="container">
-                    <label for="bonds">Number of bonds</label>
-                    <select name="bonds" id = "bonds">
-                    </select>
-                </div>
-
-                <div class="container">
-                    <label for="flaws">Number of flaws</label>
-                    <select name="flaws" id = "flaws">
-                    </select>
-                </div>
-                <input type="submit" name="submit" value="Generate">
-            </form>
-        </section>
-
-        <section class="output">
-            <div id="chosen-background"></div>
-
-            <h3>Traits</h3>
-            <div id="chosen-traits"></div>
-
-            <h3>Ideals</h3>
-            <div id="chosen-ideals"></div>
-
-            <h3>Bonds</h3>
-            <div id="chosen-bonds"></div>
-            
-            <h3>Flaws</h3>
-            <div id="chosen-flaws"></div>
-        </section>
-
-        <footer>
-            <a href="https://github.com/mvpaulastar/Background-generator-Vanilla"> Repo </a>
-            <br>
-            <sub>Uses D&D 5e SRD and free content for backgrounds.</sub>
-        </footer>
+        <div class = "grid-container">
+            <header>
+                <h2>TTRPG Character Background Generator</h2>
+                <p>Generate quick characters for TTRPGs</p>
+            </header>
+    
+            <section class="generator">
+                <form id="generator-form">
+                    <div class="container">
+                        <label for="backgrounds">Background</label>
+                        <select name="backgrounds" id="backgrounds">
+                        </select>
+                    </div>
+    
+                    <div class="container">
+                        <label for="traits">Number of traits</label>
+                        <select name="traits" id = "traits">
+                        </select>
+                    </div>
+    
+                    <div class="container">
+                        <label for="ideals">Number of ideals</label>
+                        <select name="ideals" id = "ideals">
+                        </select>
+                    </div>
+    
+                    <div class="container">
+                        <label for="bonds">Number of bonds</label>
+                        <select name="bonds" id = "bonds">
+                        </select>
+                    </div>
+    
+                    <div class="container">
+                        <label for="flaws">Number of flaws</label>
+                        <select name="flaws" id = "flaws">
+                        </select>
+                    </div>
+                    <input type="submit" name="submit" value="Generate">
+                </form>
+            </section>
+    
+            <section class="output">
+                <div id="chosen-background"></div>
+    
+                <h3>Traits</h3>
+                <div id="chosen-traits"></div>
+    
+                <h3>Ideals</h3>
+                <div id="chosen-ideals"></div>
+    
+                <h3>Bonds</h3>
+                <div id="chosen-bonds"></div>
+                
+                <h3>Flaws</h3>
+                <div id="chosen-flaws"></div>
+            </section>
+    
+            <footer>
+                <a href="https://github.com/mvpaulastar/Background-generator-Vanilla"> Repo </a>
+                <br>
+                <sub>Uses D&D 5e SRD and free content for backgrounds.</sub>
+            </footer>
+        </div>
     </div>
     <script src="assets/js/script.js"></script>
 </body>
